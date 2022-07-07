@@ -27,22 +27,14 @@ public class Person
 		Gender = g;
 		addr = add; // Address object passed as a parameter is being assigned to the address object in class Person.
 	}
-	public void set_Title(String t)
-	{
-		Title = t;
-	}
-	public void set_FirstName(String fn)
-	{
-		FirstName = fn;
-	}
-	public void set_LastName(String ln)
-	{
-		LastName = ln;
-	}
-	public void set_FamilyName(String fmn)
-	{
-		FamilyName = fmn;
-	}
+	public void setPersonName(String title , String fname , String lname , String famName)
+        {
+            this.Title = title;
+            this.FirstName = fname;
+            this.LastName = lname;
+            this.FamilyName = famName;
+            
+        }
 	public void set_age(int a)
 	{
 		age = a;
